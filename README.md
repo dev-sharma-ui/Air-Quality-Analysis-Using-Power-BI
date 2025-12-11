@@ -1,138 +1,89 @@
+<div align="center">
 Air Quality Analysis Using Power BI
+Interactive Dashboard • Environmental Insights • Data Visualization
+</div>
+📄 Overview
 
-This project presents a comprehensive analysis of multi-year air quality data using Power BI, with a focus on visualizing pollutant trends, seasonal variations, geographic distribution, and overall air quality health based on AQI classification.
-The goal of this project is to convert raw environmental data into an interactive, insight-driven dashboard that supports decision-making for pollution monitoring and environmental management.
+This project presents a full Air Quality Analysis using Power BI, built to understand long-term pollution trends, seasonal behavior, geographic hotspots, and overall environmental health.
+The dashboard converts raw pollutant data into actionable insights using professional BI modeling techniques.
 
-📌 Project Overview
-
-Air pollution directly affects public health, environmental stability, and policy decisions. This project analyzes pollutant concentrations such as PM2.5, Nitrogen Dioxide (NO₂), and Ozone (O₃) across multiple districts and seasons over several years.
-
-Using Power BI, a fully interactive dashboard was built to uncover:
-
-Temporal trends
-
-Seasonal behavior
-
-Regional pollution hotspots
-
-Pollutant correlations
-
-AQI category distribution
-
-This project demonstrates the full pipeline: data preprocessing → feature engineering → visualization → insight generation.
-
-📂 Repository Structure
+📁 Repository Contents
 ├── Air_Quality.csv         # Raw dataset
-├── CA2 OF POWER BI.pbix    # Power BI dashboard file
-├── Project Report.docx     # Detailed project report (academic format)
-└── README.md               # Project documentation
+├── CA2 OF POWER BI.pbix    # Power BI dashboard
+├── Project Report.docx     # Full academic project report
+└── README.md               # Documentation
 
-📊 Dashboard Features
-
-The Power BI dashboard includes the following analytical modules:
-
+📊 Dashboard Capabilities
 1. AQI Category Distribution
 
-Classification of pollutant readings into Good, Moderate, Unhealthy, Very Unhealthy, and Hazardous categories.
-Helps evaluate overall environmental health.
+Breakdown of Good, Moderate, Unhealthy, and Hazardous air quality levels across all observations.
 
-2. Pollutant Trend Analysis Over Time
+2. Pollutant Trend Over Time
 
-Multi-year trend analysis for PM2.5, NO₂, and O₃.
-Highlights long-term improvements, deteriorations, and recurring patterns.
+Multi-year analysis of PM2.5, NO₂, and O₃ with trendlines to identify improving or worsening pollution.
 
-3. Seasonal Variation of Pollutants
+3. Seasonal Variation
 
-Comparison of pollutant behavior across Winter, Summer, Spring, and Autumn.
-Reveals strong meteorological influence on pollution levels.
+Compare pollutant behavior across Summer, Winter, Spring, and Autumn.
 
-4. Geographic Comparison
+4. Geographic Hotspot Analysis
 
-Region-wise pollutant averages to identify the most polluted districts.
-Useful for targeted policymaking and urban planning.
+Ranking of districts by average pollutant concentration.
 
-5. Pollutant Correlation Analysis
+5. Pollutant Correlation Heatmap
 
-Correlation heatmap between PM2.5, NO₂, and O₃.
-Shows whether pollutants share emission sources or inverse seasonal behavior.
+Statistical relationships between PM2.5, NO₂, and O₃ to identify shared sources or inverse behavior.
 
-🛠️ Data Preprocessing Summary
+✨ Key Insights
 
-Key preprocessing steps performed before visualization:
+NO₂ shows a consistent decline over several years, indicating improved emission control.
+Ozone levels rise sharply in Summer, while PM2.5 and NO₂ peak in Winter.
+Certain districts consistently appear as pollution hotspots.
+AQI distribution suggests generally acceptable air quality, but periodic Unhealthy spikes persist.
+PM2.5 and NO₂ show positive correlation; O₃ shows partial negative correlation with NO₂.
 
-Removed redundant columns (Unique ID, Indicator ID, Message)
+These insights highlight the value of environmental data analytics in supporting public health, regulation, and policy design.
 
-Converted Start_Date to proper date format
+🛠️ Tools & Technologies
+Tool	Purpose
+Power BI Desktop	Dashboard creation, modeling, visualization
+Power Query Editor	Data cleaning & transformation
+DAX	Measures, calculated columns, KPIs
+CSV/Excel	Dataset handling
+📘 Full Project Report
 
-Created engineered features:
+A complete academic-style report (introduction, preprocessing, analysis, results, conclusion) is available here:
 
-Year
+➡️ Project Report.docx
 
-Month
+🚀 How to Explore This Project
 
-Season
-
-AQI_Category
-
-Cleaned text fields (trimming, formatting)
-
-Applied correct data types for smooth modeling
-
-Generated pivoted pollutant tables for correlation analysis
-
-📈 Key Insights
-
-NO₂ shows a declining trend over multiple years, reflecting improved emission control.
-
-Ozone peaks during Summer, while PM2.5 and NO₂ rise during Winter, indicating strong seasonal dependency.
-
-Certain districts repeatedly appear as pollution hotspots.
-
-AQI classification shows that while most readings fall under Good/Moderate, periodic Unhealthy spikes persist.
-
-PM2.5 and NO₂ exhibit positive correlation, while O₃ shows partial negative correlation with NO₂.
-
-📘 Tools & Technologies Used
-
-Power BI Desktop – interactive dashboard creation
-
-Power Query Editor – data cleaning and transformation
-
-DAX (Data Analysis Expressions) – measures and calculated columns
-
-Excel / CSV handling – dataset management
-
-📄 Full Project Report
-
-A complete academic-style project report (introduction, methodology, analysis, conclusion, and future scope) is included in:
-
-Project Report.docx
-
-🚀 How to Use This Repository
-
-Download or clone the repository:
+Clone the repository:
 
 git clone https://github.com/dev-sharma-ui/Air-Quality-Analysis-Using-Power-BI.git
 
 
 Open the .pbix file in Power BI Desktop.
 
-Load /Air_Quality.csv if needed to refresh visuals.
+Load the dataset if prompted.
 
-Explore dashboard pages, slicers, and visuals.
+Explore interactive visuals, slicers, and analytics.
 
-🔮 Future Scope
+🔮 Future Enhancements
 
-Integrating real-time Air Quality Index APIs
+Integrate live AQI APIs
 
-Adding meteorological features (temperature, humidity, wind speed)
+Build predictive models for pollutant forecasting
 
-Building predictive models to forecast pollutant levels
+Add meteorological data for deeper insights
 
-Enhancing geospatial mapping with longitude/latitude data
+Create district-level geospatial maps
 
-Deploying the dashboard on Power BI Service for real-time monitoring
+Deploy a real-time Power BI service dashboard
 
-📬 Contact
+<div align="center">
+If you found this project interesting, consider starring ⭐ the repository.
 
-If you'd like to discuss the dashboard, data modeling steps, or analytical process, feel free to reach out or connect.
+Feel free to reach out for discussions, collaboration, or feedback.
+
+</div>
